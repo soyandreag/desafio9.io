@@ -115,12 +115,14 @@ header {
 
 footer {
     grid-area: footer;
-    padding: 10px;
+    padding: 15px;
     gap: 0.8em;
+    background-color: rgb(41, 65, 168);
 }
 
 footer p {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
 }
 
 .redes {
@@ -137,7 +139,7 @@ footer p {
 }
 
 
-/********** Estilo mobile 576px ***********/
+/********** Estilo mobile 576px ************/
 
 @media (min-width: 576px) {
     body {
